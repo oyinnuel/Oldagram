@@ -1,0 +1,163 @@
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 650px;
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #F5F5F5;
+}
+
+header,
+section {
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid #C6C6C6;
+    padding-bottom: 15px;
+}
+
+section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    width: 150px;
+    padding: 5px 0px 0px 15px;
+}
+
+.user-avatar,
+.avata,
+.icon,
+.post {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.user-avatar,
+.avata {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-avatar,
+.avata {
+    margin: 20px 16px 0px 0px;
+}
+
+.user-avatar {
+    background-image: url("/images/user_avatar.jpg");
+}
+
+.post {
+    width: 100%;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+.post-one {
+    /* background-image: url("/images/post-vangogh.jpg"); */
+}
+
+.post-two {
+    /* background-image: url("/images/post-courbet.jpg"); */
+}
+
+.post-three {
+    /* background-image: url("/images/post-ducreux.jpg"); */
+}
+
+.avata-post-one {
+    /* background-image: url("/images/avatar-vangogh.jpg"); */
+    margin: 10px;
+}
+
+.avata-post-two {
+    /* background-image: url("/images/avatar-courbet.jpg"); */
+    margin: 10px;
+}
+
+.avata-post-three {
+    /* background-image: url("/images/avatar-ducreux.jpg"); */
+    margin: 10px;
+}
+
+.post-details,
+.likes {
+    padding-left: 15px;
+}
+
+.post-details {
+    display: flex;
+    padding-left: 15px;
+}
+
+.name-one,
+.name-two {
+    color: #000000;
+}
+
+.name-one,
+.likes,
+.bold {
+    font-weight: 700;
+}
+
+.name-one {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 0px;
+}
+
+.name-two {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 0px;
+}
+
+.icon-wrapper {
+    display: flex;
+    padding: 20px 15px 15px;
+}
+
+.icon {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.heart {
+    background-image: url("/images/icon-heart.png");
+}
+
+.comment {
+    background-image: url("/images/icon-comment.png");
+}
+
+.dm {
+    background-image: url("/images/icon-dm.png");
+}
+
+.likes {
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.bold,
+.other-info {
+    font-size: 13px;
+    line-height: 16px;
+    display: inline;
+}
+
+.wrapper {
+    padding-left: 15px;
+}
